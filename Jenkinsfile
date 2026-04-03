@@ -1,7 +1,6 @@
 pipeline {
-
     agent any
-
+i
     environment {
         PATH = "/opt/maven/bin:$PATH"
     }
@@ -38,5 +37,6 @@ pipeline {
                     sh "${scannerHome}/bin/sonar-scanner"
                 }
             }
-        }
-
+        } 
+     }
+}
